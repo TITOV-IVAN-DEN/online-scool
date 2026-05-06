@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Онлайн Школа — сильнейшие поможем с домашкой</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 1. Залипающая шапка -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">Онлайн Школа</a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#programs">Программы</a></li>
+          <li><a href="#advantages">Почему мы</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#team">Сотрудники</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn btn--header">Получить консультацию</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. Hero-секция -->
+    <section class="hero" id="hero">
+      <div class="container" id="programs">
+        <h1 class="hero__title">Сильнейшие поможем с домашкой</h1>
+        <p class="hero__subtitle">Здесь должен быть классный девиз компании</p>
+        <div class="hero__grades__box">
+          <ul class="hero__grades">
+            <li class="grade-item">Поиск программ</li>
+            <li class="grade-item">1-4 класс</li>
+            <li class="grade-item">5-8 класс</li>
+            <li class="grade-item">9-11 класс</li>
+            <li class="grade-item">Экзамены</li>
+          </ul>
+          <ul class="hero_subgrade">
+            <li class="subgrade_item_1">Русский язык<div class="sub_subgrade_item"></div></li>
+            <li class="subgrade_item_2">Математика<div class="sub_subgrade_item"></div></li>
+            <li class="subgrade_item_3">История<div class="sub_subgrade_item"></div></li>
+            <li class="subgrade_item_4">Обществознание<div class="sub_subgrade_item"></div></li>
+            <li class="subgrade_item_5">Биология<div class="sub_subgrade_item"></div></li>
+            <li class="subgrade_item_6">Химия<div class="sub_subgrade_item"></div></li>
+            <li class="subgrade_item_7">Физика<div class="sub_subgrade_item"></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Блок "Не знаете, с чего начать?" -->
+    <section class="help" id="help">
+      <div class="container help__inner">
+        <h2 class="help__title">Не знаете, с чего начать?</h2>
+        <a href="#contact" class="btn btn--primary btn--large">Получить консультацию</a>
+        <p class="help__text">Оставьте заявку — мы перезвоним и подберём идеальную программу</p>
+      </div>
+    </section>
+
+    <!-- 4. Почему выбирают нас -->
+    <section class="advantages" id="advantages">
+      <div class="container">
+        <h2 class="section-title">Почему выбирают нас?</h2>
+        <div class="advantages__content">
+          <!-- Круговая анимация -->
+          <div class="circle-block">
+            <div class="circle-animation"></div>
+            <span class="circle-label">вращай меня</span>
+          </div>
+          <div class="advantages__list">
+            <div class="advantage-item">
+              <div class="advantage-icon">🎓</div>
+              <h3>Опытные преподаватели</h3>
+              <p>Только проверенные педагоги с опытом от 5 лет</p>
+            </div>
+            <div class="advantage-item">
+              <div class="advantage-icon">📚</div>
+              <h3>Авторские методики</h3>
+              <p>Материалы, которые действительно работают</p>
+            </div>
+            <div class="advantage-item">
+              <div class="advantage-icon">⏰</div>
+              <h3>Гибкий график</h3>
+              <p>Занимайтесь в удобное время из любой точки мира</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Отзывы (слайдер) -->
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <h2 class="section-title">Что о нас говорят</h2>
+        <div class="slider reviews-slider">
+          <div class="slider__wrapper">
+            <div class="slider__slide">
+              <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="review-text">«Крутой отзыв! Ребёнок стал учиться лучше, а главное — с интересом»</p>
+                <span class="author">Анна, мама ученика 4 класса</span>
+              </div>
+            </div>
+            <div class="slider__slide">
+              <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="review-text">«Очень помогли с математикой. Доступно объясняют даже сложные темы»</p>
+                <span class="author">Сергей, папа ученика 8 класса</span>
+              </div>
+            </div>
+            <div class="slider__slide">
+              <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="review-text">«Подготовили к ОГЭ за два месяца. Результат — отлично!»</p>
+                <span class="author">Елена, мама ученика 9 класса</span>
+              </div>
+            </div>
+          </div>
+          <button class="slider__btn slider__btn--prev">←</button>
+          <button class="slider__btn slider__btn--next">→</button>
+          <div class="slider__dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Сотрудники (слайдер) -->
+    <section class="team" id="team">
+      <div class="container">
+        <h2 class="section-title">Наши сотрудники</h2>
+        <div class="slider team-slider">
+          <div class="slider__wrapper">
+            <div class="slider__slide">
+              <div class="team-card">
+                <img src="https://i.pravatar.cc/150?img=12" alt="Фото Ивана" class="team-photo">
+                <h3 class="team-name">Иван Иванов</h3>
+                <p class="team-role">Учитель математики</p>
+              </div>
+            </div>
+            <div class="slider__slide">
+              <div class="team-card">
+                <img src="https://i.pravatar.cc/150?img=47" alt="Фото Марии" class="team-photo">
+                <h3 class="team-name">Мария Петрова</h3>
+                <p class="team-role">Учитель русского языка</p>
+              </div>
+            </div>
+            <div class="slider__slide">
+              <div class="team-card">
+                <img src="https://i.pravatar.cc/150?img=23" alt="Фото Алексея" class="team-photo">
+                <h3 class="team-name">Алексей Смирнов</h3>
+                <p class="team-role">Репетитор по физике</p>
+              </div>
+            </div>
+            <div class="slider__slide">
+              <div class="team-card">
+                <img src="https://i.pravatar.cc/150?img=9" alt="Фото Ольги" class="team-photo">
+                <h3 class="team-name">Ольга Ким</h3>
+                <p class="team-role">Учитель английского</p>
+              </div>
+            </div>
+          </div>
+          <button class="slider__btn slider__btn--prev">←</button>
+          <button class="slider__btn slider__btn--next">→</button>
+          <div class="slider__dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Форма обратной связи -->
+    <section class="contact" id="contact">
+      <div class="container contact__inner">
+        <h2 class="section-title">Свяжитесь с нами</h2>
+        <p class="contact__text">Заполните форму, и мы обязательно поможем</p>
+        <form class="contact-form" id="contactForm">
+          <input type="text" name="name" placeholder="Ваше имя" required>
+          <input type="tel" name="phone" placeholder="Номер телефона" required>
+          <button type="submit" class="btn btn--primary btn--full">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__info">
+        <p>Тут может храниться какой-то текст, а также могут быть перечислены ссылки на юридические документы и т.п.</p>
+      </div>
+      <div class="footer__contacts">
+        <a href="mailto:info@school.ru" class="footer__link">info@school.ru</a>
+        <a href="tel:+70000000000" class="footer__link">+7 (000) 000-00-00</a>
+        <div class="socials">
+          <a href="#" class="social-link">Telegram</a>
+          <a href="#" class="social-link">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
